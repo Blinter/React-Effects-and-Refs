@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://blinter.github.io/React-Effects-and-Refs/React-Effects-and-Refs/'
+  base: 'https://blinter.github.io/React-Effects-and-Refs/'
 })
