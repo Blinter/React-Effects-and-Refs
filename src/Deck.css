@@ -3,10 +3,10 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  height: 500px;
+  width: 200px;
+  height: 250px;
   margin: 20px auto;
-  margin: -250px 0 0 -250px;
+  margin: -100px 0 0 -125px;
   perspective: 1000px;
 }
 
