@@ -17,7 +17,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - name: Deploy to GitHub Pages
-        uses: gh-pages/deploy@v1
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          remote_branch: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
