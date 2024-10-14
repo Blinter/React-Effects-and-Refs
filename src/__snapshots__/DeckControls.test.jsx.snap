@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeckControls component matches snapshot 1`] = `
+<div>
+  <div
+    class="deck-controls"
+  >
+    <button
+      aria-label="Draw a card"
+    >
+      Draw
+    </button>
+    |
+    <button
+      aria-label="Clear the deck"
+    >
+      Clear
+    </button>
+    |
+    <button
+      aria-label="Start Auto Draw"
+    >
+      Start Auto Draw
+    </button>
+    <p
+      class="remaining-cards"
+    >
+      Remaining: 
+      52
+    </p>
+  </div>
+</div>
+`;

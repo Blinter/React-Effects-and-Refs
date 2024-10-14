@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deck component matches initial snapshot 1`] = `
+<div>
+  <h1>
+    Card Flipper
+  </h1>
+  <div
+    class="loading"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Deck component matches snapshot after clearing the deck 1`] = `
+<div>
+  <h1>
+    Card Flipper
+  </h1>
+  <div
+    class="loading"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Deck component matches snapshot after drawing a card 1`] = `
+<div>
+  <h1>
+    Card Flipper
+  </h1>
+  <div
+    class="deck-controls"
+  >
+    <button
+      aria-label="Draw a card"
+    >
+      Draw
+    </button>
+    |
+    <button
+      aria-label="Clear the deck"
+    >
+      Clear
+    </button>
+    |
+    <button
+      aria-label="Start Auto Draw"
+    >
+      Start Auto Draw
+    </button>
+    <p
+      class="remaining-cards"
+    >
+      Remaining: 
+      52
+    </p>
+  </div>
+  <div
+    class="cards"
+  />
+</div>
+`;
+
+exports[`Deck component matches snapshot when out of cards 1`] = `
+<div>
+  <h1>
+    Card Flipper
+  </h1>
+  <div
+    class="loading"
+  >
+    Loading...
+  </div>
+</div>
+`;

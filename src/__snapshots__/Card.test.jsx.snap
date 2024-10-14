@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component matches snapshot 1`] = `
+<div>
+  <div
+    class="card-container"
+    data-testid="card-container"
+  >
+    <div
+      class="card-flip flipped"
+      style="transform: rotateY(180deg);"
+    >
+      <div
+        class="card-face card-back"
+      />
+      <div
+        class="card-face card-front"
+      >
+        <img
+          alt="ACE of SPADES"
+          aria-label="ACE of SPADES"
+          class="card-image"
+          src="mock-image-url"
+          style="color: transparent;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
