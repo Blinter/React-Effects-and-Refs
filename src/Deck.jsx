@@ -28,7 +28,7 @@ function Deck() {
             else
                 setAutoDrawEnabled(false);
         },
-        autoDrawEnabled ? 500 : null
+        autoDrawEnabled ? 1000 : null
     );
 
     const generateRotation = () => {
